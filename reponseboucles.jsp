@@ -28,7 +28,7 @@
 <h2>Exercice 1 : Le carré d'étoiles</h2>
 <p>Ecrire le code afin de produire un carré d'étoile</p>
 
-    <% for (int i = cpt; i >= 0; i--) { %>
+    <% for (int i = cpt; i > 0; i--) { %>
         <% for (int j = 1; j <= cpt; j++) { %>
             <%= "*" %>
         <% } %>
