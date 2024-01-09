@@ -58,14 +58,16 @@
 <h2>Exercice 4 : Triangle rectangle 2</h2>
 <p>Ecrire le code afin de produire un triangle rectangle aligné sur la droite</p>
 
-    <% for (int i = cpt; i >= 1; i--) { %>
-        <% for (int j = i; j <= 0; j--) { %>
-            <%= "-" %>
+<% for (int i = 1; i <= rows; i++) { %>
+        <% for (int j = 1; j <= rows - i; j++) { %>
+            <% out.print("&nbsp;&nbsp;"); %>
         <% } %>
-        <% for (int j = i; j <= cpt; j++) { %>
-            <%= "*" %>
+
+        <% for (int k = 1; k <= i; k++) { %>
+            <% out.print("*"); %>
         <% } %>
-        <br>
+
+        <%out.println("<br>"); %>
     <% } %>
 
 <h2>Exercice 5 : Triangle isocele</h2>
