@@ -48,8 +48,8 @@
 <h2>Exercice 3 : Triangle rectangle inversé</h2>
 <p>Ecrire le code afin de produire un triangle rectangle aligné sur la gauche</p>
 
-    <% for (int i = cpt; i <= 0; i--) { %>
-        <% for (int k = i; k >= 0; k--) { %>
+    <% for (int i = cpt; i >= 1; i--) { %>
+        <% for (int j = 1; j <= i; j++) { %>
             <%= "*" %>
         <% } %>
         <br>
