@@ -59,10 +59,10 @@
 <p>Ecrire le code afin de produire un triangle rectangle aligné sur la droite</p>
 
     <% for (int i = cpt; i >= 1; i--) { %>
-        <% for (int j = cpt; j <= i; j--) { %>
+        <% for (int j = cpt; j <= 0; j--) { %>
             <%= " " %>
         <% } %>
-        <% for (int j = i; j <= i; j++) { %>
+        <% for (int j = i; j <= cpt; j++) { %>
             <%= "*" %>
         <% } %>
         <br>
