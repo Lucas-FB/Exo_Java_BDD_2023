@@ -31,8 +31,8 @@
     <% for (int i = 1; i <= cpt; i++) { %>
         <% for (int j = 1; j <= cpt; j++) { %>
             <%= "*" %>
-            <br>
         <% } %>
+        <br>
     <% } %>
 
 <h2>Exercice 2 : Triangle rectangle gauche</h2>
