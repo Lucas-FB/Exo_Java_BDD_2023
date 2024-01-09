@@ -29,7 +29,10 @@
 <p>Ecrire le code afin de produire un carré d'étoile</p>
 
     <% for (int i = 1; i <= cpt; i++) { %>
-       <%= "*" %>
+        <% for (int i = 1; i <= cpt; i++) { %>
+            <%= "*" %>
+            <br>
+        <% } %>
     <% } %>
 
 <h2>Exercice 2 : Triangle rectangle gauche</h2>
