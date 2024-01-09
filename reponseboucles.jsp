@@ -110,7 +110,10 @@
 
 
 <% for (int i = 1; i <= cpt; i++) { %>
-<%= cpt %>
+<% int result = cp * i; %>
+<%= cpt %> <%= "x" %> <%= i %> <%= "=" %> <%= result %>
+
+<br>
         <% } %>
 
 
