@@ -49,7 +49,7 @@
 <p>Ecrire le code afin de produire un triangle rectangle aligné sur la gauche</p>
 
     <% for (int i = 1; i <= cpt; i++) { %>
-        <% for (int j = cpt; j >= 0; j--) { %>
+        <% for (int k = cpt; k >= 0; k--) { %>
             <%= "*" %>
         <% } %>
         <br>
