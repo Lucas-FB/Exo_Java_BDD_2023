@@ -110,11 +110,10 @@
 
 
 <% for (int i = 1; i <= cpt; i++) { %>
-<% int result = cp * i; %>
-<%= cpt %> <%= "x" %> <%= i %> <%= "=" %> <%= result %>
-
-<br>
-        <% } %>
+    <% int result = cpt * i; %>
+    <%= cpt %> <%= "x" %> <%= i %> <%= "=" %> <%= result %>
+    <br>
+<% } %>
 
 
 <p>Exemple si l'utilisateur saisie le valeur 5</p>
