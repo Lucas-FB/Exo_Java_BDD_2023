@@ -115,14 +115,6 @@
     <br><br>
 <% } %>
 
-
-<p>Exemple si l'utilisateur saisie le valeur 5</p>
-<p>5 x 1 = 5</p>
-<p>5 x 2 = 10</p>
-<p>5 x 3 = 15</p>
-<p>5 x 4 = 20</p>
-<p>5 x 5 = 25</p>
-
 <% } %>
 <p><a href="index.html">Retour au sommaire</a></p>
 </body>
